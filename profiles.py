@@ -59,7 +59,7 @@ def print_profile ( profile ):
 
 
 def main():
-	omada = Omada()
+	omada = Omada('omada.cfg')
 	omada.login()
 
 	print_header()

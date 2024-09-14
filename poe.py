@@ -16,7 +16,7 @@ def main():
 		print( f"usage: {sys.argv[0]} [profile name] [0|1|2]" )
 		return
 
-	omada = Omada()
+	omada = Omada('omada.cfg')
 	omada.login()
 
 	if len(sys.argv) > 2:
